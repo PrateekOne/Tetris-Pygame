@@ -1,3 +1,4 @@
+import pygame, sys
 class Grid:
     def __init__(self):
         self.num_rows = 20
@@ -16,12 +17,13 @@ class Grid:
         dark_grey = (26, 31, 40)
         green = (57, 255, 20)
         red = (255, 16, 16)
+        orange = (255, 97, 3)
         yellow = (255, 255, 20)
         purple = (191, 0, 255)
         cyan = (0, 255, 255)
         blue = (0, 150, 255)
         
-        return [dark_grey, green, red, yellow, purple, cyan, blue]
+        return [dark_grey, green, red, orange, yellow, purple, cyan, blue]
 
     def draw(self, screen):
         for row in range(self.num_rows):
