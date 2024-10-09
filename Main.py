@@ -12,6 +12,7 @@ clock = pygame.time.Clock()
 
 game_grid = Grid()
 block = TBlock()
+block.move(4,3)
 # game_grid.grid[0][0] = 1
 # game_grid.grid[3][5] = 4
 # game_grid.grid[17][8] = 7
